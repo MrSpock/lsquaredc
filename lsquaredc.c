@@ -32,6 +32,8 @@
 #include <linux/i2c.h>
 #include <linux/i2c-dev.h>
 #include "lsquaredc.h"
+#include <unistd.h>
+
 
 #define DEVICE_NAME_LENGTH 11   /* example: "/dev/i2c-1" + the terminating 0 */
 
